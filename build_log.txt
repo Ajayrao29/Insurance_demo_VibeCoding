@@ -5,57 +5,267 @@
 [INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- clean:3.5.0:clean (default-clean) @ IMS_SpringBoot ---
+[INFO] --- clean:3.4.1:clean (default-clean) @ IMS_SpringBoot ---
 [INFO] Deleting C:\Users\AJAY LINGAMPALLI\Downloads\Insurance_demo_VibeCoding\target
 [INFO] 
 [INFO] --- resources:3.3.1:resources (default-resources) @ IMS_SpringBoot ---
 [INFO] Copying 1 resource from src\main\resources to target\classes
 [INFO] Copying 0 resource from src\main\resources to target\classes
 [INFO] 
-[INFO] --- compiler:3.14.1:compile (default-compile) @ IMS_SpringBoot ---
+[INFO] --- compiler:3.13.0:compile (default-compile) @ IMS_SpringBoot ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar (58 kB at 91 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar (93 kB at 146 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar (124 kB at 186 kB/s)
 [INFO] Recompiling the module because of changed source code.
 [INFO] Compiling 22 source files with javac [debug parameters release 17] to target\classes
 [INFO] 
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ IMS_SpringBoot ---
 [INFO] skip non existing resourceDirectory C:\Users\AJAY LINGAMPALLI\Downloads\Insurance_demo_VibeCoding\src\test\resources
 [INFO] 
-[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ IMS_SpringBoot ---
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ IMS_SpringBoot ---
 [INFO] Recompiling the module because of changed dependency.
 [INFO] Compiling 7 source files with javac [debug parameters release 17] to target\test-classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/ClaimControllerTest.java:[10,63] package org.springframework.boot.test.autoconfigure.web.servlet does not exist
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/ClaimControllerTest.java:[24,2] cannot find symbol
-  symbol: class WebMvcTest
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/CustomerControllerTest.java:[11,63] package org.springframework.boot.test.autoconfigure.web.servlet does not exist
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/CustomerControllerTest.java:[24,2] cannot find symbol
-  symbol: class WebMvcTest
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/PolicyControllerTest.java:[11,63] package org.springframework.boot.test.autoconfigure.web.servlet does not exist
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/PolicyControllerTest.java:[27,2] cannot find symbol
-  symbol: class WebMvcTest
-[INFO] 6 errors 
-[INFO] -------------------------------------------------------------
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ IMS_SpringBoot ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.2/surefire-api-3.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.2/surefire-logger-api-3.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.2/surefire-shared-utils-3.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.2/maven-surefire-common-3.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.2/surefire-extensions-api-3.5.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.2/surefire-extensions-api-3.5.2.jar (26 kB at 382 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.2/surefire-booter-3.5.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.2/surefire-api-3.5.2.jar (171 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.2/surefire-extensions-spi-3.5.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.2/surefire-logger-api-3.5.2.jar (14 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.3.0/plexus-java-1.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.2/surefire-extensions-spi-3.5.2.jar (8.2 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.1.0/qdox-2.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.2/surefire-booter-3.5.2.jar (118 kB at 806 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.3.0/plexus-java-1.3.0.jar (57 kB at 215 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.1.0/qdox-2.1.0.jar (348 kB at 993 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.2/maven-surefire-common-3.5.2.jar (311 kB at 690 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.2/surefire-shared-utils-3.5.2.jar (2.8 MB at 5.8 MB/s)
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.2/surefire-junit-platform-3.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.2/surefire-junit-platform-3.5.2.pom (5.7 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.2/surefire-providers-3.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.2/surefire-providers-3.5.2.pom (2.6 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.2/common-java5-3.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.2/common-java5-3.5.2.pom (2.8 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.pom (3.2 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom (2.8 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.pom (3.0 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.2/surefire-junit-platform-3.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.2/common-java5-3.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 132 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.2/common-java5-3.5.2.jar (18 kB at 298 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar (103 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.2/surefire-junit-platform-3.5.2.jar (27 kB at 380 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar (189 kB at 2.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar (169 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.4/junit-platform-launcher-1.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.4/junit-platform-launcher-1.11.4.pom (3.0 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.4/junit-platform-launcher-1.11.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.4/junit-platform-launcher-1.11.4.jar (189 kB at 2.6 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.hartford.ims_springboot.controller.ClaimControllerTest
+15:50:59.673 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.hartford.ims_springboot.controller.ClaimControllerTest]: ClaimControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:50:59.860 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.hartford.ims_springboot.insdemo for test class org.hartford.ims_springboot.controller.ClaimControllerTest
+15:51:00.033 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-16T15:51:00.656+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.ClaimControllerTest     : Starting ClaimControllerTest using Java 21.0.10 with PID 2020 (started by AJAY LINGAMPALLI in C:\Users\AJAY LINGAMPALLI\Downloads\Insurance_demo_VibeCoding)
+2026-03-16T15:51:00.658+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.ClaimControllerTest     : No active profile set, falling back to 1 default profile: "default"
+WARNING: A Java agent has been loaded dynamically (C:\Users\AJAY LINGAMPALLI\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-03-16T15:51:03.754+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-16T15:51:03.755+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-16T15:51:03.760+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-03-16T15:51:03.800+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.ClaimControllerTest     : Started ClaimControllerTest in 3.791 seconds (process running for 5.584)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.332 s -- in org.hartford.ims_springboot.controller.ClaimControllerTest
+[INFO] Running org.hartford.ims_springboot.controller.CustomerControllerTest
+2026-03-16T15:51:04.727+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.ims_springboot.controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-16T15:51:04.769+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.ims_springboot.insdemo for test class org.hartford.ims_springboot.controller.CustomerControllerTest
+2026-03-16T15:51:04.781+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-16T15:51:04.855+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.CustomerControllerTest  : Starting CustomerControllerTest using Java 21.0.10 with PID 2020 (started by AJAY LINGAMPALLI in C:\Users\AJAY LINGAMPALLI\Downloads\Insurance_demo_VibeCoding)
+2026-03-16T15:51:04.856+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.CustomerControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2026-03-16T15:51:06.633+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-16T15:51:06.633+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-16T15:51:06.634+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-03-16T15:51:06.644+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.CustomerControllerTest  : Started CustomerControllerTest in 1.865 seconds (process running for 8.427)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.009 s -- in org.hartford.ims_springboot.controller.CustomerControllerTest
+[INFO] Running org.hartford.ims_springboot.controller.PolicyControllerTest
+2026-03-16T15:51:06.740+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.ims_springboot.controller.PolicyControllerTest]: PolicyControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-16T15:51:06.765+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.ims_springboot.insdemo for test class org.hartford.ims_springboot.controller.PolicyControllerTest
+2026-03-16T15:51:06.769+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-16T15:51:06.808+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.10 with PID 2020 (started by AJAY LINGAMPALLI in C:\Users\AJAY LINGAMPALLI\Downloads\Insurance_demo_VibeCoding)
+2026-03-16T15:51:06.809+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.PolicyControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2026-03-16T15:51:07.068+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-16T15:51:07.069+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-16T15:51:07.070+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-03-16T15:51:07.078+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.controller.PolicyControllerTest    : Started PolicyControllerTest in 0.309 seconds (process running for 8.862)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.414 s -- in org.hartford.ims_springboot.controller.PolicyControllerTest
+[INFO] Running org.hartford.ims_springboot.ImsSpringBootApplicationTests
+2026-03-16T15:51:07.159+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.ims_springboot.ImsSpringBootApplicationTests]: ImsSpringBootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-16T15:51:07.173+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.ims_springboot.insdemo for test class org.hartford.ims_springboot.ImsSpringBootApplicationTests
+2026-03-16T15:51:07.180+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-16T15:51:07.209+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.ImsSpringBootApplicationTests      : Starting ImsSpringBootApplicationTests using Java 21.0.10 with PID 2020 (started by AJAY LINGAMPALLI in C:\Users\AJAY LINGAMPALLI\Downloads\Insurance_demo_VibeCoding)
+2026-03-16T15:51:07.209+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.ImsSpringBootApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-03-16T15:51:07.765+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16T15:51:07.844+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2026-03-16T15:51:08.364+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-16T15:51:08.443+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2026-03-16T15:51:08.538+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-16T15:51:08.705+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16T15:51:08.740+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-16T15:51:08.985+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:imsdb user=SA
+2026-03-16T15:51:08.988+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-16T15:51:09.018+05:30  WARN 2020 --- [IMS_SpringBoot] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16T15:51:09.046+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16T15:51:10.350+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    create table claims (
+        id bigint generated by default as identity,
+        claim_amount numeric(38,2) not null,
+        claim_date date not null,
+        claim_number varchar(255) not null,
+        claim_status varchar(255) not null,
+        description varchar(255) not null,
+        policy_id bigint not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table customers (
+        id bigint generated by default as identity,
+        address varchar(255) not null,
+        date_of_birth date not null,
+        email varchar(255) not null,
+        name varchar(255) not null,
+        phone_number varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table policies (
+        id bigint generated by default as identity,
+        coverage_amount numeric(38,2) not null,
+        end_date date not null,
+        policy_number varchar(255) not null,
+        premium_amount numeric(38,2) not null,
+        start_date date not null,
+        type varchar(255) not null,
+        customer_id bigint not null,
+        primary key (id)
+    )
+Hibernate: 
+    alter table if exists claims 
+       drop constraint if exists UK8prfn2h4t4bpdy5s6lonblk7m
+Hibernate: 
+    alter table if exists claims 
+       add constraint UK8prfn2h4t4bpdy5s6lonblk7m unique (claim_number)
+Hibernate: 
+    alter table if exists customers 
+       drop constraint if exists UKrfbvkrffamfql7cjmen8v976v
+Hibernate: 
+    alter table if exists customers 
+       add constraint UKrfbvkrffamfql7cjmen8v976v unique (email)
+Hibernate: 
+    alter table if exists policies 
+       drop constraint if exists UKoa74bk3bbln2o1hgik4b93rp9
+Hibernate: 
+    alter table if exists policies 
+       add constraint UKoa74bk3bbln2o1hgik4b93rp9 unique (policy_number)
+Hibernate: 
+    alter table if exists claims 
+       add constraint FKm0w2xffwe13pmkusoxnxuim7j 
+       foreign key (policy_id) 
+       references policies
+Hibernate: 
+    alter table if exists policies 
+       add constraint FKkgwmqadssjki9pv5e7cjofc2w 
+       foreign key (customer_id) 
+       references customers
+2026-03-16T15:51:10.478+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16T15:51:11.240+05:30  WARN 2020 --- [IMS_SpringBoot] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16T15:51:11.593+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:imsdb'
+2026-03-16T15:51:11.663+05:30  INFO 2020 --- [IMS_SpringBoot] [           main] o.h.i.ImsSpringBootApplicationTests      : Started ImsSpringBootApplicationTests in 4.483 seconds (process running for 13.446)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.521 s -- in org.hartford.ims_springboot.ImsSpringBootApplicationTests
+[INFO] Running org.hartford.ims_springboot.service.ClaimServiceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.412 s -- in org.hartford.ims_springboot.service.ClaimServiceTest
+[INFO] Running org.hartford.ims_springboot.service.CustomerServiceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s -- in org.hartford.ims_springboot.service.CustomerServiceTest
+[INFO] Running org.hartford.ims_springboot.service.PolicyServiceTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in org.hartford.ims_springboot.service.PolicyServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  7.817 s
-[INFO] Finished at: 2026-03-16T15:42:46+05:30
+[INFO] Total time:  25.648 s
+[INFO] Finished at: 2026-03-16T15:51:12+05:30
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:testCompile (default-testCompile) on project IMS_SpringBoot: Compilation failure: Compilation failure: 
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/ClaimControllerTest.java:[10,63] package org.springframework.boot.test.autoconfigure.web.servlet does not exist
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/ClaimControllerTest.java:[24,2] cannot find symbol
-[ERROR]   symbol: class WebMvcTest
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/CustomerControllerTest.java:[11,63] package org.springframework.boot.test.autoconfigure.web.servlet does not exist
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/CustomerControllerTest.java:[24,2] cannot find symbol
-[ERROR]   symbol: class WebMvcTest
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/PolicyControllerTest.java:[11,63] package org.springframework.boot.test.autoconfigure.web.servlet does not exist
-[ERROR] /C:/Users/AJAY LINGAMPALLI/Downloads/Insurance_demo_VibeCoding/src/test/java/org/hartford/ims_springboot/controller/PolicyControllerTest.java:[27,2] cannot find symbol
-[ERROR]   symbol: class WebMvcTest
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
